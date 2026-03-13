@@ -27,4 +27,4 @@ router.post('/', authorize('admin'), roleController.createRole);
 router.put('/:id', authorize('admin'), roleController.updateRole);
 router.delete('/:id', authorize('admin'), roleController.deleteRole);
 
-module.exports = router;s
+module.exports = router;

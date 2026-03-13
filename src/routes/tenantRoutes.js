@@ -25,4 +25,4 @@ router.get('/:id', tenantController.getTenantById);
 router.put('/:id', tenantController.updateTenant);
 router.delete('/:id', tenantController.deleteTenant);
 
-module.exports = router;s
+module.exports = router;
